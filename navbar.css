@@ -1,0 +1,46 @@
+@-moz-document url-prefix("https://ds.study.iitm.ac.in/student_dashboard/") {
+    /*
+     * NAV BAR
+     */
+    nav.navbar {
+        background: #21373E !important;
+        max-height: 75px;
+    }
+    
+    div.fixed-top,
+    nav.navbar {
+        box-shadow: 0px 0px 1px 0px #fff4 !important;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: lato;
+        color: white;
+    }
+    
+    button.btn,
+    button.btn:hover,
+    button.btn:active {
+        background: #9E2A2B;
+        color: white;
+    }
+    
+    h5:hover,
+    h6:hover,
+    button.btn:hover,
+    button.btn:active {
+        color: #e09f3e;
+    }
+    
+    .navbar-brand::before {
+        content: url("https://raw.githubusercontent.com/5ovit/iitm_bs_dashboard_blue/main/iitm_logo.svg");
+    }
+    
+    .navbar-brand > img {
+        display: none;
+    }
+}
