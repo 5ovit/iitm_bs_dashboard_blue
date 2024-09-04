@@ -1,3 +1,14 @@
+/* ==UserStyle==
+@name         iitm_bs_dashboard_blue
+@namespace    https://github.com/5ovit
+@version      0.1.0
+@description  A UserCSS for dashboards of BS students of IIT Madras to make look better and bluish(idk if it's a real word)
+@author       5ovit
+@homepageURL  https://github.com/5ovit/iitm_bs_dashboard_blue
+@supportURL   https://github.com/5ovit/iitm_bs_dashboard_blue/issues
+==/UserStyle== */
+
+
 @-moz-document url-prefix("https://ds.study.iitm.ac.in/student_dashboard/") {
     /*
      *SIDE BAR
@@ -5,15 +16,15 @@
     div.first-row {
         padding-top: 0rem !important;
     }
-    
+
     div.d-none {
         top: 50%;
     }
-    
+
     div.d-none > .list-group {
         transform: translateY(-50%);
     }
-    
+
     .list-group-item,
     .list-group-item:last-child {
         border-radius: 0px 50px 50px 0px;
@@ -22,21 +33,21 @@
         backdrop-filter: blur(4px);
         margin: 2px 0px;
     }
-    
+
     .list-group > .list-group-item:hover {
         width: 230px !important;
     }
-    
+
     a.bg-dark:hover,
     a.bg-dark:focus {
         background-color: #9E2A2Bdd !important;
     }
-    
+
     .list-group > .list-group-item:hover .d-none {
         display: contents !important;
     }
 }
-    
+
 @-moz-document url-prefix("https://ds.study.iitm.ac.in/student_dashboard/") {
     /*
      * NAV BAR
@@ -45,12 +56,12 @@
         background: #21373E !important;
         max-height: 75px;
     }
-    
+
     div.fixed-top,
     nav.navbar {
         box-shadow: 0px 0px 1px 0px #fff4 !important;
     }
-    
+
     h1,
     h2,
     h3,
@@ -61,30 +72,19 @@
         color: white;
         text-transform: uppercase;
     }
-    
+
     button.btn,
     button.btn:hover,
     button.btn:active {
         background: #9E2A2B;
         color: white;
     }
-    
-    h5:hover,
-    h6:hover,
-    button.btn:hover,
-    button.btn:active {
-        color: #e09f3e;
-    }
-    
-    .navbar-brand::before {
-        content: url("https://raw.githubusercontent.com/5ovit/iitm_bs_dashboard_blue/main/images/iitm_logo.svg");
-    }
-    
+
     .navbar-brand > img {
         display: none;
     }
 }
-    
+
 @-moz-document url-prefix("https://ds.study.iitm.ac.in/student_dashboard/") {
     /*
      * FOOTER
@@ -94,7 +94,7 @@
         color: white;
     }
 }
-    
+
 @-moz-document url-prefix("https://ds.study.iitm.ac.in/student_dashboard/") {
     /*
      * BODY
@@ -102,10 +102,67 @@
     body {
         background: #28444c;
     }
-    
+
     .dashboard-heading {
         font-family: Lato;
         font-size: 38px;
         color: #D6A64F;
+    }
+}
+
+
+@-moz-document url("https://ds.study.iitm.ac.in/student_dashboard/current_courses") {
+    /*
+     * My_Current_Courses
+     */
+    div.currentCourse-heading.text-right {
+        position: absolute;
+        right: 50px;
+    }
+
+    div.currentCourse-heading.text-right > * {
+        font-family: Space Grotesk;
+        font-size: 15px;
+        color: white;
+    }
+
+    .currentCourse-content .courses-thumbnail {
+        background-image: url("https://raw.githubusercontent.com/5ovit/iitm_bs_dashboard_blue/main/images/course_card_bg.svg");
+        background-size: cover;
+    }
+
+    .courses-thumbnail {
+        position: relative;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .courses-assignment {
+        background-color: #325E6988;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .courses-thumbnail,
+    .courses-assignment {
+        box-shadow: 0px 0px 10px #0004;
+    }
+
+    a:has(.courses-thumbnail:hover) > *,
+    a:has(.courses-assignment:hover) > * {
+        box-shadow: 0px 0px 24px #0006;
+        transform: scale(1.01);
+    }
+
+    .currentCourse-content .courses-box .courses-visit {
+        display: none;
+    }
+
+    .courses-thumbnail-text {
+        position: absolute;
+        top: 25%;
+        font-size: 26px;
+    }
+
+    .courses-assignment .assignment-text {
+        color: white;
     }
 }
