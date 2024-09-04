@@ -40,6 +40,13 @@
         transform: scale(1.01);
     }
 
+    a:has(.courses-thumbnail:hover) > *,
+    a:has(.courses-assignment:hover) > * {
+        box-shadow: 0px 0px 24px #0006;
+        transform: scale(1.01);
+        color: #d6a64f;
+    }
+
     .currentCourse-content .courses-box .courses-visit {
         display: none;
     }

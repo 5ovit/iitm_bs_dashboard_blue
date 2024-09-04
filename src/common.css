@@ -37,6 +37,10 @@
         display: contents !important;
     }
 
+    .list-group-item:hover * {
+      color: #d6a64f;
+    }
+
     /*
      * NAV BAR
      */
@@ -50,12 +54,7 @@
         box-shadow: 0px 0px 1px 0px #fff4 !important;
     }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
+    .nav-link > h6 {
         font-family: lato;
         color: white;
         text-transform: uppercase;
@@ -65,7 +64,14 @@
     button.btn:hover,
     button.btn:active {
         background: #9E2A2B;
-        color: white;
+    }
+
+    button.btn {
+      color: white;
+    }
+
+    .nav-link > h6:hover, button.btn:hover {
+      color: #d6a64f;
     }
 
     .navbar-brand > img {
