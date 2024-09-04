@@ -1,0 +1,28 @@
+@-moz-document url("https://ds.study.iitm.ac.in/student_dashboard/student_courses"),
+    url("https://app.onlinedegree.iitm.ac.in/student_dashboard/student_courses") {
+    /*
+     * student_courses
+     */
+    .course_item > .text-dark {
+      display: none;
+    }
+
+    .course_item {
+      margin: 0px !important;
+    }
+
+    .border-bottom {
+      border-bottom: none !important;
+    }
+
+    .dashboard-sub-heading {
+      color: #FFF3B0 !important;
+      font-size: 26px !important;
+      box-shadow: 0px 1px 0px #FFF3B0;
+      margin-top: 20px;
+    }
+
+    a {
+      color: white;
+    }
+}

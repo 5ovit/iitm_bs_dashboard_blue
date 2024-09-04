@@ -1,5 +1,5 @@
-@-moz-document url-prefix("https://ds.study.iitm.ac.in/student_dashboard/"),
-               url-prefix("https://app.onlinedegree.iitm.ac.in/student_dashboard/") {
+@-moz-document url("https://ds.study.iitm.ac.in/student_dashboard/current_courses"),
+  url("https://app.onlinedegree.iitm.ac.in/student_dashboard/current_courses") {
     /*
      * My_Current_Courses
      */

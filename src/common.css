@@ -102,5 +102,6 @@
         font-size: 38px;
         color: #D6A64F !important;
         font-weight: 600 !important;
+        border: none !important;
     }
 }
