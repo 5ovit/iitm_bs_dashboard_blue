@@ -1,0 +1,55 @@
+@-moz-document url("https://ds.study.iitm.ac.in/student_dashboard/current_courses") {
+    /*
+     * My_Current_Courses
+     */
+    div.currentCourse-heading.text-right {
+        position: absolute;
+        right: 50px;
+    }
+    
+    div.currentCourse-heading.text-right > * {
+        font-family: Space Grotesk;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .currentCourse-content .courses-thumbnail {
+        background-image: url("https://raw.githubusercontent.com/5ovit/iitm_bs_dashboard_blue/main/images/course_card_bg.svg");
+        background-size: cover;
+    }
+    
+    .courses-thumbnail {
+        position: relative;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .courses-assignment {
+        background-color: #325E6988;
+        border-radius: 0px 0px 10px 10px;
+    }
+    
+    .courses-thumbnail,
+    .courses-assignment {
+        box-shadow: 0px 0px 10px #0004;
+    }
+    
+    a:has(.courses-thumbnail:hover) > *,
+    a:has(.courses-assignment:hover) > * {
+        box-shadow: 0px 0px 24px #0006;
+        transform: scale(1.01);
+    }
+    
+    .currentCourse-content .courses-box .courses-visit {
+        display: none;
+    }
+    
+    .courses-thumbnail-text {
+        position: absolute;
+        top: 25%;
+        font-size: 26px;
+    }
+    
+    .courses-assignment .assignment-text {
+        color: white;
+    }
+}
