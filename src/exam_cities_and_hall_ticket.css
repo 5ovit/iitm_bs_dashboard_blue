@@ -1,0 +1,27 @@
+@-moz-document url("https://ds.study.iitm.ac.in/student_dashboard/exam_cities_and_hall_ticket"),
+  url("https://app.onlinedegree.iitm.ac.in/student_dashboard/exam_cities_and_hall_ticket") {
+  /*
+  * My_Current_Courses
+  */
+  .no_hall_tickets {
+    color: #fff9;
+  }
+
+  .text-dark th {
+    color: #FFF3B0 !important;
+  }
+
+  table, td, th {
+    border: 1px solid white;
+  }
+
+  .text-primary {
+    color: #d6a64f !important;
+  }
+
+  .disable_edit_exam, .disable_edit_exam:hover {
+    background: #303030 !important;
+    color: white !important;
+    cursor: not-allowed;
+  }
+}

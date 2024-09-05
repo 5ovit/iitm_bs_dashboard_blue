@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         iitm_bs_dashboard_blue
 @namespace    https://github.com/5ovit
-@version      0.4.0
+@version      0.5.0
 @description  A UserCSS for dashboards of BS students of IIT Madras to make look better and bluish(idk if it's a real word)
 @author       5ovit
 @homepageURL  https://github.com/5ovit/iitm_bs_dashboard_blue
@@ -130,6 +130,16 @@
     .text-dark, .text-dark * {
       color: white !important;
     }
+
+    .dashboard-button {
+      background: #9E2A2B !important;
+      color: white !important;
+    }
+
+    .dashboard-button:hover {
+      color: #d6a64f !important;
+      cursor: pointer;
+    }
 }
 
 
@@ -230,16 +240,36 @@
       color: white;
     }
 
-    .dashboard-button {
-      background: #9E2A2B;
-      color: white;
-    }
-
-    .dashboard-button:hover {
-      color: #d6a64f;
-    }
-
     hr {
       border-color: white;
     }
+}
+
+
+@-moz-document url("https://ds.study.iitm.ac.in/student_dashboard/exam_cities_and_hall_ticket"),
+  url("https://app.onlinedegree.iitm.ac.in/student_dashboard/exam_cities_and_hall_ticket") {
+  /*
+  * My_Current_Courses
+  */
+  .no_hall_tickets {
+    color: #fff9;
+  }
+
+  .text-dark th {
+    color: #FFF3B0 !important;
+  }
+
+  table, td, th {
+    border: 1px solid white;
+  }
+
+  .text-primary {
+    color: #d6a64f !important;
+  }
+
+  .disable_edit_exam, .disable_edit_exam:hover {
+    background: #303030 !important;
+    color: white !important;
+    cursor: not-allowed;
+  }
 }
