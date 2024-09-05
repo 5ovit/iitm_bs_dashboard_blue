@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         iitm_bs_dashboard_blue
 @namespace    https://github.com/5ovit
-@version      0.3.0
+@version      0.4.0
 @description  A UserCSS for dashboards of BS students of IIT Madras to make look better and bluish(idk if it's a real word)
 @author       5ovit
 @homepageURL  https://github.com/5ovit/iitm_bs_dashboard_blue
@@ -126,6 +126,10 @@
       box-shadow: 0px 1px 0px #FFF3B0;
       margin-top: 20px;
     }
+
+    .text-dark, .text-dark * {
+      color: white !important;
+    }
 }
 
 
@@ -224,10 +228,6 @@
      */
     .custom_calendar_info {
       color: white;
-    }
-
-    .text-dark, .text-dark * {
-      color: white !important;
     }
 
     .dashboard-button {
