@@ -93,6 +93,10 @@
     /*
      * BODY
      */
+    html {
+      font-size: 1rem;
+    }
+
     body {
         background: #28444c;
     }
