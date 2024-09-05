@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         iitm_bs_dashboard_blue
 @namespace    https://github.com/5ovit
-@version      0.5.0
+@version      0.5.1
 @description  A UserCSS for dashboards of BS students of IIT Madras to make look better and bluish(idk if it's a real word)
 @author       5ovit
 @homepageURL  https://github.com/5ovit/iitm_bs_dashboard_blue
@@ -131,12 +131,12 @@
       color: white !important;
     }
 
-    .dashboard-button {
+    .dashboard-button, .dashboard-button * {
       background: #9E2A2B !important;
       color: white !important;
     }
 
-    .dashboard-button:hover {
+    .dashboard-button:hover, .dashboard-button:hover * {
       color: #d6a64f !important;
       cursor: pointer;
     }
