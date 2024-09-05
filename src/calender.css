@@ -1,0 +1,26 @@
+@-moz-document url("https://ds.study.iitm.ac.in/student_dashboard/calender"),
+  url("https://app.onlinedegree.iitm.ac.in/student_dashboard/calender") {
+    /*
+     * My_Current_Courses
+     */
+    .custom_calendar_info {
+      color: white;
+    }
+
+    .text-dark, .text-dark * {
+      color: white !important;
+    }
+
+    .dashboard-button {
+      background: #9E2A2B;
+      color: white;
+    }
+
+    .dashboard-button:hover {
+      color: #d6a64f;
+    }
+
+    hr {
+      border-color: white;
+    }
+}
