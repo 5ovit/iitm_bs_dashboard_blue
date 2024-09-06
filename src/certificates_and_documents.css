@@ -60,4 +60,34 @@
   td:last-child, td:last-child * {
     color: #fffb;
   }
+
+  td > a:hover {
+    color: #d6a64f;
+  }
+
+  tr:first-child > td:first-child {
+    border-top-left-radius: 12px;
+  }
+
+  tr:first-child > td:last-child {
+    border-top-right-radius: 12px;
+  }
+
+  tr:last-child > td:first-child {
+    border-bottom-left-radius: 12px;
+  }
+
+  tr:last-child > td:last-child {
+    border-bottom-right-radius: 12px;
+  }
+
+  table.dataTable.stripe tbody tr.odd,
+  table.dataTable.display tbody tr.odd {
+    background: transparent;
+  }
+
+  table.dataTable.no-footer,
+  table.dataTable thead th {
+    border: none;
+  }
 }
