@@ -1,13 +1,13 @@
 @-moz-document url("https://ds.study.iitm.ac.in/student_dashboard/calender"),
   url("https://app.onlinedegree.iitm.ac.in/student_dashboard/calender") {
-    /*
-     * My_Current_Courses
-     */
-    .custom_calendar_info {
-      color: white;
-    }
+  /*
+    * My_Current_Courses
+    */
+  .custom_calendar_info {
+    color: white;
+  }
 
-    hr {
-      border-color: white;
-    }
+  hr {
+    border-color: white;
+  }
 }

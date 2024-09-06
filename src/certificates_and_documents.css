@@ -1,0 +1,63 @@
+@-moz-document url("https://ds.study.iitm.ac.in/student_dashboard/student_certificates"),
+  url("https://app.onlinedegree.iitm.ac.in/student_dashboard/student_certificates"),
+  url("https://ds.study.iitm.ac.in/student_dashboard/student_documents"),
+  url("https://app.onlinedegree.iitm.ac.in/student_dashboard/student_documents"),
+  url("https://ds.study.iitm.ac.in/student_dashboard/student_disciplinary_action"),
+  url("https://app.onlinedegree.iitm.ac.in/student_dashboard/student_disciplinary_action") {
+  /*
+  * My_Current_Courses
+  */
+  .dataTables_info {
+    color: white !important;
+  }
+
+  label, label * {
+    color: white;
+  }
+
+  input[type="search"] {
+    background-color: #D6A64F66 !important;
+  }
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button,
+  .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    color: white !important;
+    border: 1px solid #fff5 !important;
+    background: transparent !important;
+  }
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: #d6a64f !important;
+    background: transparent !important;
+    border: 1px solid #d6a64f !important;
+  }
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button.disabled,
+  .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    color: #fff5 !important;
+  }
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover,
+  .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #fff5 !important;
+    background: transparent !important;
+    border: 1px solid #fff5 !important;
+  }
+
+  table.dataTable thead th {
+    color: #FFF3B0;
+  }
+
+  table.dataTable.display tbody tr > .sorting_1, td {
+    background: #1C6073 !important;
+  }
+
+  td:first-child {
+    color: white;
+    font-weight: bold;
+  }
+
+  td:last-child, td:last-child * {
+    color: #fffb;
+  }
+}

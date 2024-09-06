@@ -1,21 +1,21 @@
 @-moz-document url("https://ds.study.iitm.ac.in/student_dashboard/student_courses"),
     url("https://app.onlinedegree.iitm.ac.in/student_dashboard/student_courses") {
-    /*
-     * student_courses
-     */
-    .course_item > .text-dark {
-      display: none;
-    }
+  /*
+    * student_courses
+    */
+  .course_item > .text-dark {
+    display: none;
+  }
 
-    .course_item {
-      margin: 0px !important;
-    }
+  .course_item {
+    margin: 0px !important;
+  }
 
-    .border-bottom {
-      border-bottom: none !important;
-    }
+  .border-bottom {
+    border-bottom: none !important;
+  }
 
-    a {
-      color: white;
-    }
+  a {
+    color: white;
+  }
 }

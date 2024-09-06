@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name         iitm_bs_dashboard_blue
 @namespace    https://github.com/5ovit
-@version      0.6.0
+@version      0.7.0
 @description  A UserCSS for dashboards of BS students of IIT Madras to make look better and bluish(idk if it's a real word)
 @author       5ovit
 @homepageURL  https://github.com/5ovit/iitm_bs_dashboard_blue
@@ -11,238 +11,238 @@
 
 @-moz-document url-prefix("https://ds.study.iitm.ac.in/student_dashboard/"),
                url-prefix("https://app.onlinedegree.iitm.ac.in/student_dashboard/") {
-    /*
-     *SIDE BAR
-     */
-    div.first-row {
-        padding-top: 0rem !important;
-    }
+  /*
+    *SIDE BAR
+    */
+  div.first-row {
+    padding-top: 0rem !important;
+  }
 
-    div.d-none {
-        top: 50%;
-    }
+  div.d-none {
+    top: 50%;
+  }
 
-    div.d-none > .list-group {
-        transform: translateY(-50%);
-    }
+  div.d-none > .list-group {
+    transform: translateY(-50%);
+  }
 
-    .list-group-item,
-    .list-group-item:last-child {
-        border-radius: 0px 50px 50px 0px;
-        background-color: #9E2A2Bee !important;
-        border: 0px !important;
-        backdrop-filter: blur(4px);
-        margin: 2px 0px;
-    }
+  .list-group-item,
+  .list-group-item:last-child {
+    border-radius: 0px 50px 50px 0px;
+    background-color: #9E2A2Bee !important;
+    border: 0px !important;
+    backdrop-filter: blur(4px);
+    margin: 2px 0px;
+  }
 
-    .list-group > .list-group-item:hover {
-        width: 230px !important;
-    }
+  .list-group > .list-group-item:hover {
+    width: 230px !important;
+  }
 
-    a.bg-dark:hover,
-    a.bg-dark:focus {
-        background-color: #9E2A2Bdd !important;
-    }
+  a.bg-dark:hover,
+  a.bg-dark:focus {
+    background-color: #9E2A2Bdd !important;
+  }
 
-    .list-group > .list-group-item:hover .d-none {
-        display: contents !important;
-    }
+  .list-group > .list-group-item:hover .d-none {
+    display: contents !important;
+  }
 
-    .list-group-item:hover * {
-      color: #d6a64f;
-    }
+  .list-group-item:hover * {
+    color: #d6a64f;
+  }
 
-    /*
-     * NAV BAR
-     */
-    nav.navbar {
-        background: #21373E !important;
-        max-height: 75px;
-    }
+  /*
+    * NAV BAR
+    */
+  nav.navbar {
+    background: #21373E !important;
+    max-height: 75px;
+  }
 
-    div.fixed-top,
-    nav.navbar {
-        box-shadow: 0px 0px 1px 0px #fff4 !important;
-    }
+  div.fixed-top,
+  nav.navbar {
+    box-shadow: 0px 0px 1px 0px #fff4 !important;
+  }
 
-    .nav-link > h6 {
-        font-family: lato;
-        color: white;
-        text-transform: uppercase;
-    }
+  .nav-link > h6 {
+    font-family: lato;
+    color: white;
+    text-transform: uppercase;
+  }
 
-    button.btn,
-    button.btn:hover,
-    button.btn:active {
-        background: #9E2A2B;
-    }
+  button.btn,
+  button.btn:hover,
+  button.btn:active {
+    background: #9E2A2B;
+  }
 
-    button.btn {
-      color: white;
-    }
+  button.btn {
+    color: white;
+  }
 
-    .nav-link > h6:hover, button.btn:hover {
-      color: #d6a64f;
-    }
+  .nav-link > h6:hover, button.btn:hover {
+    color: #d6a64f;
+  }
 
-    .navbar-brand > img {
-        display: none;
-    }
+  .navbar-brand > img {
+    display: none;
+  }
 
-    .navbar-brand::before {
-      content: url("https://github.com/5ovit/iitm_bs_dashboard_blue/raw/main/images/iitm_logo.svg");
-    }
+  .navbar-brand::before {
+    content: url("https://github.com/5ovit/iitm_bs_dashboard_blue/raw/main/images/iitm_logo.svg");
+  }
 
-    /*
-     * FOOTER
-     */
-    footer > .reporting {
-        background-color: #325E6988;
-        color: white;
-    }
+  /*
+    * FOOTER
+    */
+  footer > .reporting {
+    background-color: #325E6988;
+    color: white;
+  }
 
-    /*
-     * BODY
-     */
-    html {
-      font-size: 1rem;
-    }
+  /*
+    * BODY
+    */
+  html {
+    font-size: 1rem;
+  }
 
-    body {
-        background: #28444c;
-    }
+  body {
+    background: #28444c;
+  }
 
-    .dashboard-heading {
-        font-family: Lato;
-        font-size: 38px;
-        color: #D6A64F !important;
-        font-weight: 600 !important;
-        border: none !important;
-    }
+  .dashboard-heading {
+    font-family: Lato;
+    font-size: 38px;
+    color: #D6A64F !important;
+    font-weight: 600 !important;
+    border: none !important;
+  }
 
-    .dashboard-sub-heading {
-      color: #FFF3B0 !important;
-      font-size: 26px !important;
-      box-shadow: 0px 1px 0px #FFF3B0;
-      margin-top: 20px;
-    }
+  .dashboard-sub-heading {
+    color: #FFF3B0 !important;
+    font-size: 26px !important;
+    box-shadow: 0px 1px 0px #FFF3B0;
+    margin-top: 20px;
+  }
 
-    .text-dark, .text-dark * {
-      color: white !important;
-    }
+  .text-dark, .text-dark * {
+    color: white !important;
+  }
 
-    .dashboard-button, .dashboard-button * {
-      background: #9E2A2B !important;
-      color: white !important;
-    }
+  .dashboard-button, .dashboard-button * {
+    background: #9E2A2B !important;
+    color: white !important;
+  }
 
-    .dashboard-button:hover, .dashboard-button:hover * {
-      color: #d6a64f !important;
-      cursor: pointer;
-    }
+  .dashboard-button:hover, .dashboard-button:hover * {
+    color: #d6a64f !important;
+    cursor: pointer;
+  }
 }
 
 
 @-moz-document url("https://ds.study.iitm.ac.in/student_dashboard/current_courses"),
   url("https://app.onlinedegree.iitm.ac.in/student_dashboard/current_courses") {
-    /*
-     * My_Current_Courses
-     */
-    div.currentCourse-heading.text-right {
-        position: absolute;
-        right: 50px;
-    }
+  /*
+    * My_Current_Courses
+    */
+  div.currentCourse-heading.text-right {
+    position: absolute;
+    right: 50px;
+  }
 
-    div.currentCourse-heading.text-right > * {
-        font-family: Space Grotesk;
-        font-size: 15px;
-        color: white;
-    }
+  div.currentCourse-heading.text-right > * {
+    font-family: Space Grotesk;
+    font-size: 15px;
+    color: white;
+  }
 
-    .currentCourse-content .courses-thumbnail {
-        background-image: url("https://raw.githubusercontent.com/5ovit/iitm_bs_dashboard_blue/main/images/course_card_bg.svg");
-        background-size: cover;
-    }
+  .currentCourse-content .courses-thumbnail {
+    background-image: url("https://raw.githubusercontent.com/5ovit/iitm_bs_dashboard_blue/main/images/course_card_bg.svg");
+    background-size: cover;
+  }
 
-    .courses-thumbnail {
-        position: relative;
-        border-radius: 10px 10px 0px 0px;
-    }
+  .courses-thumbnail {
+    position: relative;
+    border-radius: 10px 10px 0px 0px;
+  }
 
-    .courses-assignment {
-        background-color: #325E6988;
-        border-radius: 0px 0px 10px 10px;
-    }
+  .courses-assignment {
+    background-color: #325E6988;
+    border-radius: 0px 0px 10px 10px;
+  }
 
-    .courses-thumbnail,
-    .courses-assignment {
-        box-shadow: 0px 0px 10px #0004;
-    }
+  .courses-thumbnail,
+  .courses-assignment {
+    box-shadow: 0px 0px 10px #0004;
+  }
 
-    a:has(.courses-thumbnail:hover) > *,
-    a:has(.courses-assignment:hover) > * {
-        box-shadow: 0px 0px 24px #0006;
-        transform: scale(1.01);
-    }
+  a:has(.courses-thumbnail:hover) > *,
+  a:has(.courses-assignment:hover) > * {
+    box-shadow: 0px 0px 24px #0006;
+    transform: scale(1.01);
+  }
 
-    a:has(.courses-thumbnail:hover) > *,
-    a:has(.courses-assignment:hover) > * {
-        box-shadow: 0px 0px 24px #0006;
-        transform: scale(1.01);
-        color: #d6a64f;
-    }
+  a:has(.courses-thumbnail:hover) > *,
+  a:has(.courses-assignment:hover) > * {
+    box-shadow: 0px 0px 24px #0006;
+    transform: scale(1.01);
+    color: #d6a64f;
+  }
 
-    .currentCourse-content .courses-box .courses-visit {
-        display: none;
-    }
+  .currentCourse-content .courses-box .courses-visit {
+    display: none;
+  }
 
-    .courses-thumbnail-text {
-        position: absolute;
-        top: 25%;
-        font-size: 26px;
-    }
+  .courses-thumbnail-text {
+    position: absolute;
+    top: 25%;
+    font-size: 26px;
+  }
 
-    .courses-assignment .assignment-text {
-        color: white;
-    }
+  .courses-assignment .assignment-text {
+    color: white;
+  }
 }
 
 
 @-moz-document url("https://ds.study.iitm.ac.in/student_dashboard/student_courses"),
     url("https://app.onlinedegree.iitm.ac.in/student_dashboard/student_courses") {
-    /*
-     * student_courses
-     */
-    .course_item > .text-dark {
-      display: none;
-    }
+  /*
+    * student_courses
+    */
+  .course_item > .text-dark {
+    display: none;
+  }
 
-    .course_item {
-      margin: 0px !important;
-    }
+  .course_item {
+    margin: 0px !important;
+  }
 
-    .border-bottom {
-      border-bottom: none !important;
-    }
+  .border-bottom {
+    border-bottom: none !important;
+  }
 
-    a {
-      color: white;
-    }
+  a {
+    color: white;
+  }
 }
 
 
 @-moz-document url("https://ds.study.iitm.ac.in/student_dashboard/calender"),
   url("https://app.onlinedegree.iitm.ac.in/student_dashboard/calender") {
-    /*
-     * My_Current_Courses
-     */
-    .custom_calendar_info {
-      color: white;
-    }
+  /*
+    * My_Current_Courses
+    */
+  .custom_calendar_info {
+    color: white;
+  }
 
-    hr {
-      border-color: white;
-    }
+  hr {
+    border-color: white;
+  }
 }
 
 
@@ -286,5 +286,70 @@
 
   .document_type > p {
     color: #fff9;
+  }
+}
+
+
+@-moz-document url("https://ds.study.iitm.ac.in/student_dashboard/student_certificates"),
+  url("https://app.onlinedegree.iitm.ac.in/student_dashboard/student_certificates"),
+  url("https://ds.study.iitm.ac.in/student_dashboard/student_documents"),
+  url("https://app.onlinedegree.iitm.ac.in/student_dashboard/student_documents"),
+  url("https://ds.study.iitm.ac.in/student_dashboard/student_disciplinary_action"),
+  url("https://app.onlinedegree.iitm.ac.in/student_dashboard/student_disciplinary_action") {
+  /*
+  * My_Current_Courses
+  */
+  .dataTables_info {
+    color: white !important;
+  }
+
+  label, label * {
+    color: white;
+  }
+
+  input[type="search"] {
+    background-color: #D6A64F66 !important;
+  }
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button,
+  .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    color: white !important;
+    border: 1px solid #fff5 !important;
+    background: transparent !important;
+  }
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: #d6a64f !important;
+    background: transparent !important;
+    border: 1px solid #d6a64f !important;
+  }
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button.disabled,
+  .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    color: #fff5 !important;
+  }
+
+  .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover,
+  .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #fff5 !important;
+    background: transparent !important;
+    border: 1px solid #fff5 !important;
+  }
+
+  table.dataTable thead th {
+    color: #FFF3B0;
+  }
+
+  table.dataTable.display tbody tr > .sorting_1, td {
+    background: #1C6073 !important;
+  }
+
+  td:first-child {
+    color: white;
+    font-weight: bold;
+  }
+
+  td:last-child, td:last-child * {
+    color: #fffb;
   }
 }
