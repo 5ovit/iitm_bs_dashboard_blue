@@ -8,20 +8,20 @@
   }
 
   div.d-none {
-    top: 50%;
+    top: 50% !important;
   }
 
   div.d-none > .list-group {
-    transform: translateY(-50%);
+    transform: translateY(-50%) !important;
   }
 
   .list-group-item,
   .list-group-item:last-child {
-    border-radius: 0px 50px 50px 0px;
+    border-radius: 0px 50px 50px 0px !important;
     background-color: #9E2A2Bee !important;
     border: 0px !important;
-    backdrop-filter: blur(4px);
-    margin: 2px 0px;
+    backdrop-filter: blur(4px) !important;
+    margin: 2px 0px !important;
   }
 
   .list-group > .list-group-item:hover {
@@ -38,7 +38,7 @@
   }
 
   .list-group-item:hover * {
-    color: #d6a64f;
+    color: #d6a64f !important;
   }
 
   /*
@@ -46,7 +46,7 @@
     */
   nav.navbar {
     background: #21373E !important;
-    max-height: 75px;
+    max-height: 75px !important;
   }
 
   div.fixed-top,
@@ -55,55 +55,55 @@
   }
 
   .nav-link > h6 {
-    font-family: lato;
-    color: white;
-    text-transform: uppercase;
+    font-family: lato !important;
+    color: white !important;
+    text-transform: uppercase !important;
   }
 
   button.btn,
   button.btn:hover,
   button.btn:active {
-    background: #9E2A2B;
+    background: #9E2A2B !important;
   }
 
   button.btn {
-    color: white;
+    color: white !important;
   }
 
   .nav-link > h6:hover, button.btn:hover {
-    color: #d6a64f;
+    color: #d6a64f !important;
   }
 
   .navbar-brand > img {
-    display: none;
+    display: none !important;
   }
 
   .navbar-brand::before {
-    content: url("https://github.com/5ovit/iitm_bs_dashboard_blue/raw/main/images/iitm_logo.svg");
+    content: url("https://github.com/5ovit/iitm_bs_dashboard_blue/raw/main/images/iitm_logo.svg") !important;
   }
 
   /*
     * FOOTER
     */
   footer > .reporting {
-    background-color: #325E6988;
-    color: white;
+    background-color: #325E6988 !important;
+    color: white !important;
   }
 
   /*
     * BODY
     */
   html {
-    font-size: 1rem;
+    font-size: 1rem !important;
   }
 
   body {
-    background: #28444c;
+    background: #28444c !important;
   }
 
   .dashboard-heading {
-    font-family: Lato;
-    font-size: 38px;
+    font-family: Lato !important;
+    font-size: 38px !important;
     color: #D6A64F !important;
     font-weight: 600 !important;
     border: none !important;
@@ -112,8 +112,8 @@
   .dashboard-sub-heading {
     color: #FFF3B0 !important;
     font-size: 26px !important;
-    box-shadow: 0px 1px 0px #FFF3B0;
-    margin-top: 20px;
+    box-shadow: 0px 1px 0px #FFF3B0 !important;
+    margin-top: 20px !important;
   }
 
   .text-dark, .text-dark * {
@@ -127,6 +127,6 @@
 
   .dashboard-button:hover, .dashboard-button:hover * {
     color: #d6a64f !important;
-    cursor: pointer;
+    cursor: pointer !important;
   }
 }

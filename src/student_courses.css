@@ -4,7 +4,7 @@
     * student_courses
     */
   .course_item > .text-dark {
-    display: none;
+    display: none !important;
   }
 
   .course_item {
