@@ -20,10 +20,10 @@ Once Stylus is installed, simply click the link below to install the theme:
 
 Below are a few screenshots showcasing the Blue Theme applied to various pages of the IITM BS Dashboard:
 <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
-    <img src="./Screenshots/my_current_courses.png" alt="Current Courses Page" style="width: 300px;"/>
-    <img src="./Screenshots/completed_courses.png" alt="Completed Courses Page" style="width: 300px;"/>
-    <img src="./Screenshots/calendar.png" alt="Calendar Page" style="width: 300px;"/>
-    <img src="./Screenshots/downloadable_documents.png" alt="Documents Page" style="width: 300px;"/>
+    <img src="./Screenshots/my_current_courses.png" alt="Current Courses Page" style="width: 48%;"/>
+    <img src="./Screenshots/completed_courses.png" alt="Completed Courses Page" style="width: 48%;"/>
+    <img src="./Screenshots/calendar.png" alt="Calendar Page" style="width: 48%;"/>
+    <img src="./Screenshots/downloadable_documents.png" alt="Documents Page" style="width: 48%;"/>
 </div>
 
 ## Features
@@ -31,7 +31,9 @@ Below are a few screenshots showcasing the Blue Theme applied to various pages o
 - Modern Blue color scheme
 - Improved readability and navigation
 - Sleek, minimalist design
+- Auto-checks for updates every 24hrs
 
 ## Contributing
 
-If you have suggestions, ideas, or issues, feel free to open an issue or submit a pull request on [GitHub](https://github.com/5ovit/iitm_bs_dashboard_blue).
+If you have any suggestions, ideas, or encounter issues, I encourage you to [open an issue](https://github.com/5ovit/iitm_bs_dashboard_blue/issues) or submit a pull request on GitHub.  
+When reporting an issue, including **screenshots** or **detailed descriptions** is highly appreciated as it helps us address the problem more efficiently.
